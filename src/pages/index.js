@@ -4,10 +4,10 @@ import Quiz from '../components/Quiz'
 
 const IndexPage = () => {
   return (
-    <>
-      <h1 className='text-9xl text'>Quiz</h1>
+    <div className="pt-10 h-screen bg-gray-900">
+      <h1 className='text-center text-9xl text-white max-sm:text-7xl'>Quiz</h1>
       <Quiz/>
-    </>
+    </div>
   )
 }
 
