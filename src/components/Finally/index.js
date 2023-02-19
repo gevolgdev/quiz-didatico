@@ -7,7 +7,8 @@ const Index = ({score, questions, wrongAnswer}) => {
       <p className='text-xl mt-4 text-gray-300'>Você acertou <span className='text-white font-semibold'>{score}</span> perguntas de {questions.length}</p>
       {
         score === questions.length || (
-          <div className='bg-gray-800 border border-white w-[500px] max-sm:w-full mt-20 px-3 py-4'>
+          <div className='flex flex-col bg-gray-800 border border-white w-[500px] max-sm:w-full mt-20 px-3 py-4'>
+            <span className='text-gray-400 mb-4'>{score === questions.length - 1 ? 'Correção:' : 'Correções:'}</span>
             <p className='flex flex-col gap-4'>
               {wrongAnswer.map((item, index) => 
                 <span key={index} className='text-white'>

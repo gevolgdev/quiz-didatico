@@ -11,12 +11,12 @@ export const questions = [
   },
   {
     question: 'Eu sou empresário, funcionário ou freelancer?',
-    options: ['Empresário', 'funcionário', 'freelancer'],
+    options: ['Empresário', 'Funcionário', 'Freelancer'],
     correctAnswer: 'Empresário',
   },
   {
     question: 'Quantos anos tenho na programação?',
-    options: ['1 ano', '2 anos', '5 anos', '7 anos'],
+    options: ['1 ano', '5 anos', '2 anos', '7 anos'],
     correctAnswer: '2 anos',
   },
   {
@@ -26,7 +26,7 @@ export const questions = [
   },
   {
     question: 'Qual ramo pretendo seguir?',
-    options: ['Desenvolver sites', 'Micro-serviços', 'Somente aplicativos'],
+    options: ['Desenvolver sites', 'Somente aplicativos', 'Micro-serviços'],
     correctAnswer: 'Micro-serviços',
   },
 ]
